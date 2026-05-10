@@ -110,7 +110,7 @@ func (h *Handler) handleInitialize(w http.ResponseWriter, req *Request) {
 			Name:    ServerName,
 			Version: ServerVersion,
 		},
-		Instructions: "MCP Tool Gateway - a secure intermediary for I agent tool access. Use tools/list to discover available tools.",
+		Instructions: "MCP Tool Gateway - a secure intermediary for AI agent tool access. Use tools/list to discover available tools.",
 	}
 
 	h.writeResult(w, req.ID, result)
