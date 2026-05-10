@@ -40,9 +40,9 @@ const (
 // MCP Protocol Types
 
 type InitializeParams struct {
-	Protocol     string          `json:"protocolVersion"`
-	Capabilities json.RawMessage `json:"capabilities,omitempty"`
-	ClientInfo   Implementation  `json:"clientInfo"`
+	ProtocolVersion string          `json:"protocolVersion"`
+	Capabilities    json.RawMessage `json:"capabilities,omitempty"`
+	ClientInfo      Implementation  `json:"clientInfo"`
 }
 
 type Implementation struct {
