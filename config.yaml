@@ -1,0 +1,19 @@
+server:
+  addr: ":8080"
+  log_level: "info"
+
+tools:
+  echo:
+    enabled: true
+    category: "utility"
+    tags: ["test", "debug"]
+
+  current_time:
+    enabled: true
+    category: "utility"
+    tags: ["time", "info"]
+
+  hash:
+    enabled: true
+    category: "crypto"
+    tags: ["security", "hash"]
